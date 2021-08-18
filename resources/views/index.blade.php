@@ -12,7 +12,6 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-3">
         <a class="navbar-brand" href="#">Pizza.Shop</a>
     </nav>
-
     <div class="container">
 
         <div class="row">
