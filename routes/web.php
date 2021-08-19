@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MainController;
+use App\Http\Controllers\ProductController;
 
 /*
 |--------------------------------------------------------------------------
@@ -38,9 +39,9 @@ Route::get('/product', function () {
     return view('product');
 });
 
-Route::get('/index', function () {
-    return view('index');
-});
+// Route::get('/index', function () {
+//     return view('index');
+// });
 
-Route::get('/', 'App\Http\Controllers\MainController@master');
-Route::get('/product', 'App\Http\Controllers\MainController@index');
+// Route::get('/', 'App\Http\Controllers\MainController@master');
+Route::get('/product', 'App\Http\Controllers\MainController@master');
