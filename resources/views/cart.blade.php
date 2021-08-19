@@ -32,7 +32,6 @@
                             </style>
                             <label for="input">Число:</label>
                             <input name="input" type="number" id="col" value="1">
-                            <button id="buy">Купить</button>
                             <button id="plus">+</button>
                             <script>let col = document.getElementById('col');
                                 let plus = document.getElementById('plus');
