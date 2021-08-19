@@ -9,7 +9,8 @@
 
             <h1>Корзина</h1>
             <p>Оформление заказа</p>
-            <form action="cart/order" method="post">
+            <form action="cart/order" method="get">
+                @csrf
                 <div class="form-group">
 
             <div class="panel">

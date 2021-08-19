@@ -39,6 +39,18 @@ Route::get('/product', function () {
     return view('product');
 });
 
+Route::get('/product/cart', function () {
+    return "Попали в корзину";
+});
+
+Route::get('/cart/order', function () {
+    return "Завершаем заказ";
+});
+
+Route::get('/order/order_place', function () {
+    return "Приятного аппетита!";
+});
+
 // Route::get('/index', function () {
 //     return view('index');
 // });

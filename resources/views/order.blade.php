@@ -14,7 +14,8 @@
             <h1>King Pizza</h1>
             <p>150 грн</p>
 
-            <form action="cart/order" method="post">
+            <form action="order/order_place" method="get">
+                @csrf
                 <div class="form-group">
                 <label for="name">Имя</label>
                 <input type="text" placeholder="Введите имя" id="name" class="form-control"></input>
