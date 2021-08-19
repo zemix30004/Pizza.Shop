@@ -9,5 +9,8 @@
 </head>
 <body>
     @yield('content')
+
+    @include('layouts.inc.aside')
+
 </body>
 </html>

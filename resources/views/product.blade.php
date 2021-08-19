@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('title-block')
+    Продукты
+@endsection
+
 @section('content')
 
     <table border="1">
