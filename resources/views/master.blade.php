@@ -85,7 +85,7 @@
     <label for="input">Количество:</label>
     <input name="input" type="number" id="col" value="1">
     <button id="plus">+</button>
-    <button id="buy">В корзину</button>
+    <button type="submit" class="btn btn-success">В корзину</button>
 
     <script>let col = document.getElementById('col');
         let plus = document.getElementById('plus');

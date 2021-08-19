@@ -9,6 +9,9 @@
 
             <h1>Корзина</h1>
             <p>Оформление заказа</p>
+            <form action="cart/order" method="post">
+                <div class="form-group">
+
             <div class="panel">
                 <table class="table table-striped">
                     <thead>
@@ -30,7 +33,7 @@
                         <td><span class="badge"></span>
                             <div class="btn-group">
                             </style>
-                            <label for="input">Число:</label>
+                            <label for="input"></label>
                             <input name="input" type="number" id="col" value="1">
                             <button id="plus">+</button>
                             <script>let col = document.getElementById('col');
@@ -53,10 +56,11 @@
                 </table>
                 <br>
                 <div class="btn-group pull-right" role="group">
-                    <a type="button" class="btn btn-success" href="">Оформить заказ</a>
+                    <button type="submit" class="btn btn-success">Оформить заказ</button>
                 </div>
             </div>
         </div>
-
+    </div>
+</form>
 @endsection
 
