@@ -27,13 +27,21 @@
                                 King Pizza
                             </a>
                         </td>
-                        <td><span class="badge">1</span>
+                        <td><span class="badge"></span>
                             <div class="btn-group">
-                                <a type="button" class="btn btn-danger" href=""><span
-                                        class="glyphicon glyphicon-minus" aria-hidden="true"></span></a>
-                                <a type="button" class="btn btn-success" href=""><span
-                                        class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
+                            </style>
+                            <label for="input">Число:</label>
+                            <input name="input" type="number" id="col" value="1">
+                            <button id="buy">Купить</button>
+                            <button id="plus">+</button>
+                            <script>let col = document.getElementById('col');
+                                let plus = document.getElementById('plus');
+
+                                plus.onclick = function() {
+                                  col.value = parseInt(col.value) + 1;
+                                }</script>
                             </div>
+
                         </td>
                         <td>16500 грн.</td>
                         <td>16500 грн.</td>
@@ -51,5 +59,5 @@
             </div>
         </div>
 
-   @endsection
+@endsection
 

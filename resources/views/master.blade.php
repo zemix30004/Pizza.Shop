@@ -77,7 +77,6 @@
 
         }
     </style>
-
     <label for="input">Число:</label>
     <input name="input" type="number" id="col" value="1">
     <button id="buy">Купить</button>
