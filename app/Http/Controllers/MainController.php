@@ -14,6 +14,12 @@ class MainController extends Controller
         return view('index', compact('products'));
     }
 
-    // $products = DB::table('products')->orderBy('id')->cursorPaginate(15);
-    // return view('index', compact('products'));
+    public function master()
+    {
+        $products = Product::paginate(20);
+        return view('master', compact('products'));
+    }
 }
+
+// $products = DB::table('products')->orderBy('id')->cursorPaginate(15);
+// return view('master', compact('products'));
