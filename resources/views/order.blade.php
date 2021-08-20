@@ -14,7 +14,7 @@
             <h1>King Pizza</h1>
             <p>150 грн</p>
 
-            <form action="order/order_place" method="get">
+            <form action="{{ route('order_place') }}" method="get">
                 @csrf
                 <div class="form-group">
                 <label for="name">Имя</label>

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Product;
+use App\Models\Order;
 
 use Illuminate\Http\Request;
 
@@ -13,6 +14,30 @@ class MainController extends Controller
     //     $products = Product::paginate(20);
     //     return view('index', compact('products'));
     // }
+
+
+
+    public function product()
+    {
+        return view('product');
+    }
+
+    public function  cart()
+    {
+
+        return view('cart');
+    }
+
+    public function order_place()
+    {
+        return view('order_place');
+    }
+
+    public function order()
+    {
+
+        return view('order');
+    }
 
     public function master()
     {

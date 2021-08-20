@@ -9,7 +9,7 @@
 
             <h1>Корзина</h1>
             <p>Оформление заказа</p>
-            <form action="cart/order" method="get">
+            <form action="/cart/order" method="get">
                 @csrf
                 <div class="form-group">
 

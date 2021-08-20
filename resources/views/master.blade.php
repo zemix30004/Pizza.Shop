@@ -71,9 +71,8 @@
     <span>
         {{ $products->links() }}
     </span>
-    <form action="product/cart" method="get">
+    <form action="/product/cart" method="get">
         @csrf
-        <div class="form-group">
             <label for="name"></label>
             <input type="text" placeholder="Введите название пиццы" id="name" class="form-control"></input>
 
