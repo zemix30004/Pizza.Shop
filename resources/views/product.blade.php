@@ -1,4 +1,4 @@
-@extends('layouts.app')
+{{-- @extends('layouts.app')
 
 @section('title-block')
     Продукты
@@ -71,4 +71,4 @@
     <a class="btn btn-success" href="">Добавить в корзину</a>
 </div>
 
-@endsection
+@endsection --}}
